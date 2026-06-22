@@ -22,7 +22,7 @@
 > 比健身房教练严格，比女朋友敏锐，比你妈还操心你的姿势。
 
 <!-- TODO: 截图 DetectionScreen，摄像头画面+骨骼线+实时计数 -->
-![AI实时计数](img/1.png)
+<p align="center"><img src="img/1.png" width="320" alt="AI实时计数"></p>
 
 ---
 
@@ -61,7 +61,7 @@ KeepUp 有一套完整的经济系统：
 > 公平原则：难度越高，回报越厚。想躺着拉伸刷成铂金？你得拉到下辈子。
 
 <!-- TODO: 截图训练完成弹窗，显示次数+铜币收益 -->
-![训练收益](img/2.png)
+<p align="center"><img src="img/2.png" width="320" alt="训练收益"></p>
 
 ---
 
@@ -77,8 +77,7 @@ KeepUp 有一套完整的经济系统：
 > 一天不练，自己知道；两天不练，KeepUp 好友知道；三天不练——你的留言箱会爆炸。
 
 <!-- TODO: 截图排行榜页面，显示好友排名 -->
-![排行榜1](img/3.png)
-![排行榜2](img/3.png)
+<p align="center"><img src="img/3.png" width="320" alt="排行榜"></p>
 
 ---
 
@@ -96,7 +95,7 @@ KeepUp 有一套完整的经济系统：
 > 年底翻出来看看："哦，原来我 3 月 12 号练过一次。"——也是一种成就。
 
 <!-- TODO: 截图运动总结页面，柱状图+数据卡片 -->
-![运动总结](img/5.png)
+<p align="center"><img src="img/5.png" width="320" alt="运动总结"></p>
 
 ---
 
@@ -113,8 +112,7 @@ KeepUp 有一套完整的经济系统：
 ## 💰 我的资产：你的健身银行
 
 <!-- TODO: 截图"我的"页面，头像+资产展示 -->
-![我的页面](img/7.png)
-![分享页面](img/6.png)
+<p align="center"><img src="img/7.png" width="320" alt="我的页面"> &nbsp; <img src="img/6.png" width="320" alt="分享页面"></p>
 
 资产主页一目了然：
 - 💎🥇🥈🥉 四层货币，直观展示
