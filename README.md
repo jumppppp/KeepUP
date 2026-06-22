@@ -77,8 +77,7 @@ KeepUp 有一套完整的经济系统：
 > 一天不练，自己知道；两天不练，KeepUp 好友知道；三天不练——你的留言箱会爆炸。
 
 <!-- TODO: 截图排行榜页面，显示好友排名 -->
-<p align="center"><img src="img/3.png" width="320" alt="排行榜"></p>
-
+<p align="center"><img src="img/3.png" width="320" alt="排行榜1"> &nbsp; <img src="img/4.png" width="320" alt="排行榜2"></p>
 ---
 
 ## 📊 运动总结：你的年度健身账单
