@@ -1,148 +1,146 @@
-# KeepUp — 你的 AI 健身裁判 📱
+# KeepUp — Your AI Fitness Referee 📱
 
 <p align="center">
-  <b>手机架好，摄像头对准，剩下的交给 KeepUp。</b><br>
-  不需要手表 · 不需要手环 · 一部手机就能精准计次
+  <b>Set up your phone, aim the camera, and let KeepUp do the rest.</b><br>
+  No smartwatch. No fitness band. Just your phone, counting every rep.
 </p>
 
 <p align="center">
-  <a href="http://123.56.229.196:18443/keepup"><b>👉 点我下载 KeepUp 👈</b></a>
+  <a href="README_zh.md">中文</a>
+  &nbsp;·&nbsp;
+  <a href="http://123.56.229.196:18443/keepup"><b>👉 Download KeepUp 👈</b></a>
 </p>
 
 ---
 
-## 🤖 它是怎么盯着你的？
+## 🤖 How It Tracks You
 
-你练你的，手机摄像头开着就行。KeepUp 内置 AI 姿态识别引擎，实时追踪你身体的 **33 个骨骼关键点**，精准判断每一个动作是否到位。
+Just train with your camera on. KeepUp's AI pose estimation engine tracks **33 skeletal keypoints** in real time, accurately judging every rep.
 
-- 深蹲有没有蹲到平行？它知道。
-- 引体下巴有没有过杠？它清楚。
-- 平板支撑有没有偷偷塌腰？它看在眼里。
+- Did you squat deep enough? It knows.
+- Did your chin clear the bar? It's tracking.
+- Are you sagging during that plank? It sees everything.
 
-> 比健身房教练严格，比女朋友敏锐，比你妈还操心你的姿势。
+> More strict than a gym trainer. Sharper than your significant other. More obsessed with your form than your mom.
 
-<!-- TODO: 截图 DetectionScreen，摄像头画面+骨骼线+实时计数 -->
-<p align="center"><img src="img/detection.png" width="320" alt="AI实时计数"> &nbsp; <img src="img/record.png" width="320" alt="运动记录"></p>
-
----
-
-## 🎯 37 种运动，一周不重样
-
-不管你是撸铁猛男、帕梅拉女孩、还是"坐太久腰疼所以随便拉伸一下"选手：
-
-| 你的画风 | 推荐套餐 |
-|----------|----------|
-| 🔨 我要变大 | 引体向上、俯卧撑、倒立俯卧撑、哑铃弯举、肩推、臂屈伸、弓步蹲 |
-| 🔥 暴汗燃脂 | 波比跳、开合跳、高抬腿、登山跑、收腹跳 |
-| 🧊 跟地心引力较劲 | 平板支撑、靠墙静蹲、空心支撑、倒立保持 |
-| 🧘 久坐保命套餐 | 猫牛式、婴儿式、靠墙天使、颈部拉伸、过顶三头肌、门框开胸…… |
-| ✏️ 自由发挥 | 自定义训练，自己做啥填啥，我们不问 |
-
-> 周一引体，周二深蹲，周三波比跳到怀疑人生，周四拉伸治愈——KeepUp 不强制，但你的好友会因为你连续 3 天没动态而来"关心"你。
+<p align="center"><img src="img/detection.png" width="320" alt="AI counter"> &nbsp; <img src="img/record.png" width="320" alt="Workout records"></p>
 
 ---
 
-## 🪙 练得越狠，赚得越多
+## 🎯 37 Exercises, No Two Days Alike
 
-KeepUp 有一套完整的经济系统：
+Whether you're a gym beast, a Pilates enthusiast, or someone who "just needs to stretch because sitting hurts":
+
+| Your Vibe | Recommended |
+|-----------|-------------|
+| 🔨 Get Big | Pull-ups, Push-ups, Handstand Push-ups, Dumbbell Curls, Shoulder Press, Tricep Dips, Lunges |
+| 🔥 Burn Fat | Burpees, Jumping Jacks, High Knees, Mountain Climbers, Tuck Jumps |
+| 🧊 Isometric | Planks, Wall Sits, Hollow Holds, Handstand Holds |
+| 🧘 Stretch & Recover | Cat-Cow, Child's Pose, Wall Angels, Neck Stretch, Doorway Chest Stretch... |
+| ✏️ Freestyle | Custom workout — track whatever you want |
+
+> Monday pull-ups, Tuesday squats, Wednesday burpees until you question life, Thursday stretch therapy. KeepUp doesn't force you — but your friends will "check in" if you ghost for 3 days.
+
+---
+
+## 🪙 Train Harder, Earn More
+
+A full virtual economy:
 
 ```
-🥉 青铜 → 🥈 白银 → 🥇 黄金 → 💎 铂金
-  100铜 = 1银 = 10,000铜 = 1金 = 1,000,000铜 = 1铂
+🥉 Bronze → 🥈 Silver → 🥇 Gold → 💎 Platinum
+  100 bronze = 1 silver = 10,000 bronze = 1 gold = 1,000,000 bronze = 1 platinum
 ```
 
-怎么赚？练就完了：
+How to earn? Just train:
 
-- 引体向上 1 次 = **10 铜**（最难动作，顶级回报）
-- 波比跳 1 次 = **7 铜**（心率炸裂，应得的）
-- 平板支撑 10 秒 = **5 铜**（耐力活，细水长流）
-- 拉伸 10 秒 = **1 铜**（放松性质，别想着靠这发财）
+- 1 pull-up = **10 bronze** (hardest, top reward)
+- 1 burpee = **7 bronze** (heart-rate nightmare, well earned)
+- Plank 10s = **5 bronze** (endurance game, slow grind)
+- Stretch 10s = **1 bronze** (recovery mode, don't expect to get rich)
 
-> 公平原则：难度越高，回报越厚。想躺着拉伸刷成铂金？你得拉到下辈子。
+> Fair principle: harder = more reward. Want to plank your way to platinum? See you in the next life.
 
-<!-- TODO: 截图训练完成弹窗，显示次数+铜币收益 -->
-<p align="center"><img src="img/reward.png" width="320" alt="训练收益"></p>
-
----
-
-## 👀 偷偷看好友练没练
-
-这是 KeepUp 的灵魂功能——**社交压力**：
-
-- **🏟️ 广场**：练完晒记录，配感受、配照片。"今日 100 俯卧撑 ✅"——装 X 是健身的第一生产力。
-- **🏆 排行榜**：全站财富榜 + 单项运动榜。支持按性别筛选——"她今天引体比我多了？今晚加练。"
-- **👤 个人主页**：点进好友头像，TA 的训练次数、签名、动态全暴露。"说好的今天一起练，你怎么没动静？"
-- **💬 留言**：私信催练："已经 3 天没看到你打卡了 👀"
-
-> 一天不练，自己知道；两天不练，KeepUp 好友知道；三天不练——你的留言箱会爆炸。
-
-<!-- TODO: 截图排行榜页面，显示好友排名 -->
-<p align="center"><img src="img/leaderboard.png" width="320" alt="运动排行"> &nbsp; <img src="img/wealth.png" width="320" alt="财富排行"></p>
----
-
-## 📊 运动总结：你的年度健身账单
-
-日 / 周 / 月 / 季 / 年，随时翻旧账：
-
-- 🗓 **连续训练天数**：断了就归零，比游戏签到还严格
-- 📈 **训练量柱状图**：哪天摸鱼一目了然
-- 🏅 **各运动累计排行**：你对引体向上是真爱还是浅尝
-- 💪 **身体部位分布**：练胸不练腿？图里藏不住
-- 🥇 **个人纪录**：你某年某月某日，引体向上最多做了 15 个——历史会记住
-- 💰 **总资产曲线**：赚了多少铜币，花在哪儿了（虽然目前只能赚不能花）
-
-> 年底翻出来看看："哦，原来我 3 月 12 号练过一次。"——也是一种成就。
-
-<!-- TODO: 截图运动总结页面，柱状图+数据卡片 -->
-<p align="center"><img src="img/summary.png" width="320" alt="运动总结"></p>
+<p align="center"><img src="img/reward.png" width="320" alt="Training reward"></p>
 
 ---
 
-## 🎬 训练回放：你的骨架动画大片
+## 👀 Check on Your Friends
 
-需要摄像头的运动，KeepUp 会自动录制**骨架动画视频**。
+KeepUp's soul — **social pressure**:
 
-不是普通录屏——是把你每个关节的运动轨迹画出来的火柴人动画。动作哪里变形、哪里偷懒了，回放里看得清清楚楚。
+- **🏟️ Feed**: Post workouts with photos. "100 push-ups ✅" — showing off is the #1 gym motivator.
+- **🏆 Leaderboard**: Global wealth ranking + per-exercise leaderboards. Filter by gender. "She did more pull-ups than me? Time for an extra set."
+- **👤 Profile**: Tap a friend's avatar. Their reps, bio, feed, all exposed. "You said we'd train together. Where's your post?"
+- **💬 DMs**: Nudge friends: "👀 3 days no activity..."
 
-> 发到朋友圈配一句"今日打卡"，比 45° 角对镜自拍高级一个次元。
+> Skip one day, you know. Skip two, KeepUp friends know. Skip three — your inbox explodes.
 
----
-
-## 💰 我的资产：你的健身银行
-
-<!-- TODO: 截图"我的"页面，头像+资产展示 -->
-<p align="center"><img src="img/profile.png" width="320" alt="我的页面"></p>
-
-资产主页一目了然：
-- 💎🥇🥈🥉 四层货币，直观展示
-- 累计训练次数（你有多努力，数字说了算）
-- 连续训练天数（断了就没了，珍惜吧）
-- 快捷入口：训练记录 / 运动总结 / 留言消息
+<p align="center"><img src="img/leaderboard.png" width="320" alt="Leaderboard"> &nbsp; <img src="img/wealth.png" width="320" alt="Wealth ranking"></p>
 
 ---
 
-## 🔐 你的数据你说了算
+## 📊 Summary: Your Annual Fitness Report
 
-- 全链路 AES-256 加密，别人截到也是乱码
-- 不想分享的训练？设为私密，只有自己能看到
-- 管理员都看不了你的聊天记录（虽然你也没跟人聊啥）
+Day / Week / Month / Quarter / Year — dig up the past anytime:
+
+- 🗓 **Streak**: Consecutive training days. Breaks reset to zero — stricter than any game login bonus.
+- 📈 **Bar Charts**: Which day you slacked off = instantly visible.
+- 🏅 **Top Exercises**: Are you truly devoted to pull-ups, or just flirting?
+- 💪 **Body Part Distribution**: Skipping leg day? The chart snitches.
+- 🥇 **Personal Records**: On some date, you did 15 pull-ups. History remembers.
+- 💰 **Wealth Curve**: Earned coins over time (earning only, spending TBD).
+
+> Look back at year's end: "Oh, I actually trained on March 12." That's an achievement too.
+
+<p align="center"><img src="img/summary.png" width="320" alt="Summary"></p>
 
 ---
 
-## 🚀 更新日志——不糊弄
+## 🎬 Skeleton Animation Replay
 
-每次更新 App 内都会弹提示，告诉你具体改了什么：
+For camera-based exercises, KeepUp auto-records a **stick-figure animation video**.
 
-> ❌ "修复了一些已知问题"
-> ✅ "开合跳不再跳一次计两次了"  
-> ✅ "运动总结新增连续训练天数"  
-> ✅ "新增 6 个拉伸动作"
+Not regular screen recording — it's a motion-traced skeleton showing every joint's path. Where your form broke, where you cheated — replay reveals all.
 
-我们承诺：永远不用"修复了一些已知问题"糊弄你。
+> Post it on social media with "✓ Done" — one dimension above bathroom mirror selfies.
+
+---
+
+## 💰 My Assets: Your Fitness Bank
+
+<p align="center"><img src="img/profile.png" width="320" alt="Profile page"></p>
+
+Asset dashboard at a glance:
+- 💎🥇🥈🥉 Four-tier currency display
+- Total workout count (numbers don't lie)
+- Consecutive training days (treasure them)
+- Quick access: training records / summary / messages
+
+---
+
+## 🔐 Your Data, Your Rules
+
+- Full-chain AES-256 encryption — intercepted? Gibberish.
+- Private workouts? Set them private — your eyes only.
+- Even admins can't read your messages (not that you're gossiping much).
+
+---
+
+## 🚀 Changelog — No BS
+
+Every update shows what actually changed:
+
+> ❌ "Bug fixes and improvements"
+> ✅ "Jumping jacks no longer count twice per jump"
+> ✅ "Summary now shows consecutive training days"
+> ✅ "Added 6 new stretches"
+
+We promise: never "fixed some known issues" you.
 
 ---
 
 <p align="center">
-  <b>KeepUp —— 练了就是练了，没练别想糊弄。🏋️</b><br><br>
-  <a href="http://123.56.229.196:18443/keepup">📥 下载 KeepUp</a>
+  <b>KeepUp — Train or admit you didn't. 🏋️</b><br><br>
+  <a href="http://123.56.229.196:18443/keepup">📥 Download KeepUp</a>
 </p>
