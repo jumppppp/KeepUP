@@ -9,7 +9,26 @@
   <a href="README_zh.md">中文</a>
   &nbsp;·&nbsp;
   <a href="http://123.56.229.196:18443/keepup"><b>👉 Download KeepUp 👈</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/jumppppp/KeepUP">GitHub</a>
 </p>
+
+---
+
+## 🆕 v1.1.0 — Motion Engine v2.2
+
+**14 expression functions** + ternary operator + config system. [Full changelog](https://github.com/jumppppp/KeepUP/releases)
+
+| Category | Functions |
+|----------|-----------|
+| Math | `abs` `sqrt` `pow` `min` `max` |
+| Trig | `sin` `cos` *(degrees, `sin(90)=1.0`)* |
+| Distance | `distance` `distance3d` |
+| Angle | `angle` `angle3d` |
+| Midpoint | `centerX` `centerY` |
+| Conditional | `? :` |
+
+> AI Smart Detect now with 3-layer softmax noise filter — no more false positives when idle.
 
 ---
 
@@ -21,25 +40,47 @@ Just train with your camera on. KeepUp's AI pose estimation engine tracks **33 s
 - Did your chin clear the bar? It's tracking.
 - Are you sagging during that plank? It sees everything.
 
+**🧠 AI Smart Detect (new!)**: No need to pick an exercise — just start moving and KeepUp recognizes what you're doing. Batch-detects multiple exercises in a single session, each with its own skeleton replay video.
+
 > More strict than a gym trainer. Sharper than your significant other. More obsessed with your form than your mom.
 
 <p align="center"><img src="img/detection.png" width="320" alt="AI counter"> &nbsp; <img src="img/record.png" width="320" alt="Workout records"></p>
 
 ---
 
-## 🎯 37 Exercises, No Two Days Alike
+## 🎯 39 Exercises, No Two Days Alike
 
 Whether you're a gym beast, a Pilates enthusiast, or someone who "just needs to stretch because sitting hurts":
 
-| Your Vibe | Recommended |
-|-----------|-------------|
-| 🔨 Get Big | Pull-ups, Push-ups, Handstand Push-ups, Dumbbell Curls, Shoulder Press, Tricep Dips, Lunges |
-| 🔥 Burn Fat | Burpees, Jumping Jacks, High Knees, Mountain Climbers, Tuck Jumps |
-| 🧊 Isometric | Planks, Wall Sits, Hollow Holds, Handstand Holds |
-| 🧘 Stretch & Recover | Cat-Cow, Child's Pose, Wall Angels, Neck Stretch, Doorway Chest Stretch... |
-| ✏️ Freestyle | Custom workout — track whatever you want |
+| Category | Exercises |
+|----------|-----------|
+| 🔨 Strength (12) | Pull-up, Push-up, Squat, Lunge, Handstand Push-up, Shoulder Press, Bicep Curl, Tricep Dip, Glute Bridge, Lateral Raise, Punch, Dynamic Archery |
+| 🔥 Cardio (5) | Burpee, Jumping Jack, High Knees, Mountain Climber, Tuck Jump |
+| 🧊 Static (5) | Plank, Wall Sit, Hollow Hold, Handstand Hold, Archery Hold |
+| 🏋️ Core (3) | Crunch, Russian Twist, Leg Raise |
+| 🧘 Stretch (13) | Cat-Cow, Child's Pose, Cobra Stretch, Wall Angels, Neck Side Stretch, Cross-Body Shoulder Stretch, Overhead Tricep Stretch, Behind-Back Chest Stretch, Doorway Chest Stretch, Standing Hamstring Stretch, Wall Calf Stretch, Lunge Psoas Stretch, Reverse Nordic Curl |
+| ✏️ Custom (1) | Custom Workout — track whatever you want |
 
-> Monday pull-ups, Tuesday squats, Wednesday burpees until you question life, Thursday stretch therapy. KeepUp doesn't force you — but your friends will "check in" if you ghost for 3 days.
+> 39 exercises across 6 categories. Monday pull-ups, Tuesday squats, Wednesday burpees until you question life, Thursday stretch therapy. KeepUp doesn't force you — but your friends will "check in" if you ghost for 3 days.
+
+---
+
+## 🧠 Expression Engine: Write Your Own Exercise Rules
+
+KeepUp's motion detection engine uses a **custom expression language** for defining exercise phases. Templates are JSON — change them without recompiling the app.
+
+```json
+// Squat DOWN phase: both knees bent to ~90°
+"expr": "min(leftKneeAngle, rightKneeAngle) < 100"
+
+// Body alignment (plank): shoulder-hip-ankle in a straight line
+"expr": "abs(angle(shoulderMid, hipMid, ankleMid) - 180) < 10"
+
+// Self-calibrating threshold
+"expr": "wristDistance < shoulderWidth * 1.5"
+```
+
+**14 functions**: `abs` `sqrt` `pow` `min` `max` `sin` `cos` `distance` `distance3d` `angle` `angle3d` `centerX` `centerY` + ternary `? :`
 
 ---
 
@@ -133,8 +174,8 @@ Every update shows what actually changed:
 
 > ❌ "Bug fixes and improvements"
 > ✅ "Jumping jacks no longer count twice per jump"
-> ✅ "Summary now shows consecutive training days"
-> ✅ "Added 6 new stretches"
+> ✅ "Expression engine: 14 new functions for custom exercise templates"
+> ✅ "AI Smart Detect: 3-layer filter eliminates false positives when idle"
 
 We promise: never "fixed some known issues" you.
 
@@ -143,4 +184,6 @@ We promise: never "fixed some known issues" you.
 <p align="center">
   <b>KeepUp — Train or admit you didn't. 🏋️</b><br><br>
   <a href="http://123.56.229.196:18443/keepup">📥 Download KeepUp</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/jumppppp/KeepUP">⭐ Star on GitHub</a>
 </p>
