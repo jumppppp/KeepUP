@@ -15,20 +15,15 @@
 
 ---
 
-## 🆕 v1.1.0 — Motion Engine v2.2
+## 🆕 v1.1.0 — Smarter, Faster, More Precise
 
-**14 expression functions** + ternary operator + config system. [Full changelog](https://github.com/jumppppp/KeepUP/releases)
+**AI Smart Detect** now automatically recognizes what exercise you're doing — no need to pick one manually. One session can batch-detect multiple exercise types, each with its own skeleton replay video.
 
-| Category | Functions |
-|----------|-----------|
-| Math | `abs` `sqrt` `pow` `min` `max` |
-| Trig | `sin` `cos` *(degrees, `sin(90)=1.0`)* |
-| Distance | `distance` `distance3d` |
-| Angle | `angle` `angle3d` |
-| Midpoint | `centerX` `centerY` |
-| Conditional | `? :` |
+**14 new detection rules** make motion tracking sharper than ever: absolute values, distances, angles, midpoints, and trigonometry — meaning exercises like plank alignment and lateral lunges are now trackable.
 
-> AI Smart Detect now with 3-layer softmax noise filter — no more false positives when idle.
+**3-layer false-positive filter** ensures you won't see "squats detected" while standing still. Confidence colors now show you exactly how sure the AI is: 🟢 ≥90% · 🟡 ≥75% · 🔴 below.
+
+> [Full changelog](https://github.com/jumppppp/KeepUP/releases)
 
 ---
 
@@ -40,7 +35,7 @@ Just train with your camera on. KeepUp's AI pose estimation engine tracks **33 s
 - Did your chin clear the bar? It's tracking.
 - Are you sagging during that plank? It sees everything.
 
-**🧠 AI Smart Detect (new!)**: No need to pick an exercise — just start moving and KeepUp recognizes what you're doing. Batch-detects multiple exercises in a single session, each with its own skeleton replay video.
+**🧠 AI Smart Detect**: Open the camera and start moving — KeepUp figures out what you're doing. Squats, push-ups, lunges… it recognizes them all. Batch-detects multiple exercises in one session, each with its own replay.
 
 > More strict than a gym trainer. Sharper than your significant other. More obsessed with your form than your mom.
 
@@ -65,32 +60,13 @@ Whether you're a gym beast, a Pilates enthusiast, or someone who "just needs to 
 
 ---
 
-## 🧠 Expression Engine: Write Your Own Exercise Rules
-
-KeepUp's motion detection engine uses a **custom expression language** for defining exercise phases. Templates are JSON — change them without recompiling the app.
-
-```json
-// Squat DOWN phase: both knees bent to ~90°
-"expr": "min(leftKneeAngle, rightKneeAngle) < 100"
-
-// Body alignment (plank): shoulder-hip-ankle in a straight line
-"expr": "abs(angle(shoulderMid, hipMid, ankleMid) - 180) < 10"
-
-// Self-calibrating threshold
-"expr": "wristDistance < shoulderWidth * 1.5"
-```
-
-**14 functions**: `abs` `sqrt` `pow` `min` `max` `sin` `cos` `distance` `distance3d` `angle` `angle3d` `centerX` `centerY` + ternary `? :`
-
----
-
 ## 🪙 Train Harder, Earn More
 
 A full virtual economy:
 
 ```
 🥉 Bronze → 🥈 Silver → 🥇 Gold → 💎 Platinum
-  100 bronze = 1 silver = 10,000 bronze = 1 gold = 1,000,000 bronze = 1 platinum
+  100 bronze = 1 silver → 100 silver = 1 gold → 100 gold = 1 platinum
 ```
 
 How to earn? Just train:
@@ -174,8 +150,8 @@ Every update shows what actually changed:
 
 > ❌ "Bug fixes and improvements"
 > ✅ "Jumping jacks no longer count twice per jump"
-> ✅ "Expression engine: 14 new functions for custom exercise templates"
-> ✅ "AI Smart Detect: 3-layer filter eliminates false positives when idle"
+> ✅ "AI Smart Detect: no more false positives when standing still"
+> ✅ "14 new detection rules for sharper motion tracking"
 
 We promise: never "fixed some known issues" you.
 
